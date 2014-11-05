@@ -6,7 +6,7 @@ Node Coding challenge for Lob
 
 ## Install
 
-Assuming `Node 10.33` and `HomeBrew`:
+Assuming `Node 10.33`, `npm`, `HomeBrew`:
 
 ```bash
 # OSX:
