@@ -2,6 +2,8 @@
 
 Node Coding challenge for Lob
 
+[Lobster Screenshot](http://i.danmasq.com/cap.1415207899.png)
+
 ## Install
 
 Assuming `Node 10.33` and `HomeBrew`:
