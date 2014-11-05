@@ -2,6 +2,15 @@
 
 Node Coding challenge for Lob
 
+## Install
+
+Assuming `Node 10.33` and `HomeBrew`:
+
+```bash
+# OSX:
+./install.sh
+```
+
 ## Time
 
 2 - 4 Hours
@@ -39,3 +48,7 @@ File and name of file are provided via an API endpoint:
   * http://www.imagemagick.org/ 
   * http://www.graphicsmagick.org/
   * https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
+
+## Cheatcodes used...
+* Added Bluebird to prevent callback pyramids:
+  * https://github.com/petkaantonov/bluebird/
