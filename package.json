@@ -1,0 +1,16 @@
+{
+	"name": "thumb_coding_challenge",
+	"version": "0.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Lob",
+	"license": "ISC",
+	"dependencies": {
+		"hapi": "^6.5.1",
+		"joi": "^4.7.0",
+		"bluebird": "^2.3.10"
+	}
+}

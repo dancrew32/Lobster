@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<title>Lobster - The PDF to PNG thing!</title>
+<style>
+body {
+	background-color: #61ADE6;
+	font-family: helvetica;
+	color: #444;
+	text-shadow: 0 1px 0 rgba(255,255,255,.4);
+}
+#lob {
+	margin: 50px auto;
+	padding-top: 100px;
+	text-align: center;
+	background: url('logo.png') no-repeat center top;
+}
+#upload_form {
+	margin: 0 auto;
+	text-align: left;
+	border: 1px solid #499bd7;
+	background-color: #84c9fc;
+	padding: 10px 20px 15px;
+	width: 400px;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 0 rgba(0,0,0,.05);
+	font-size: 14px;
+}
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+#name {
+	display: block;
+	margin: 3px 0 10px;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border: 1px solid #499bd7;
+	padding: 7px;
+}
+
+button {
+	padding: 3px 5px;
+	border: 1px solid #499bd7;
+	background-color: #fff;
+	border-radius: 4px;
+	font-size: 15px;
+}
+</style>
+</head>
+<body>
+<div id="lob">
+	<form id="upload_form" action="/upload" method="POST" enctype="multipart/form-data">
+		<label for="name">Name:</label>
+		<input type="text" name="name" id="name" placeholder="E.g. myupload">
+
+		<label for="uploader">PDF:</label>
+		<input type="file" name="file" id="uploader">
+		<button type="submit">Upload</button>
+	</form>
+</div>
+</body>
+</html>
