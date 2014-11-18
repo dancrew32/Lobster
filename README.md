@@ -1,6 +1,6 @@
 # Lobster
 
-Node Coding challenge for Lob
+Code challenge for Lob, the most boring company to ever exist.
 
 ![Lobster Screenshot](http://i.danmasq.com/cap.1415207899.png)
 
